@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1120">
+  <meta name="description" content="Elevate Publishing — original stories, comics, and books worth discovering.">
+  <title>Elevate Publishing — Where Stories Reach New Heights</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="Elevate Publishing homepage">
+        <span class="brand-name">ELEVATE<span class="brand-dot">.</span></span>
+        <span class="brand-sub">PUBLISHING</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#books">Books</a>
+        <a href="#genres">Categories</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#books">Explore books <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-orb orb-one" aria-hidden="true"></div>
+      <div class="hero-orb orb-two" aria-hidden="true"></div>
+
+      <div class="shell hero-inner">
+        <div class="hero-copy reveal">
+          <span class="eyebrow"><span class="status-dot"></span> WELCOME TO ELEVATE PUBLISHING</span>
+          <h1 id="hero-title">Where stories reach <span>new heights.</span></h1>
+          <p>Extraordinary worlds begin with a single page. Discover original novels, comics, and stories created to stay with you.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#books">Explore our books <span aria-hidden="true">→</span></a>
+            <a class="btn btn-outline" href="#about">Meet Elevate</a>
+          </div>
+
+          <div class="hero-foot"><span class="line"></span> A NEW CHAPTER IN PUBLISHING</div>
+        </div>
+
+        <div class="hero-art reveal" aria-label="Elevate Publishing official logo">
+          <div class="art-glow"></div>
+          <div class="logo-frame">
+            <img src="elevate-logo.png" alt="Elevate Publishing original blue and silver logo">
+          </div>
+          <div class="art-label">IMAGINE MORE. READ MORE.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro-band">
+      <div class="shell intro-grid">
+        <div>
+          <span class="micro-label">OUR MISSION</span>
+          <h2>Big ideas. Bold stories.<br><em>Limitless imagination.</em></h2>
+        </div>
+        <p>From the first chapter to the final page, we're building a home for storytelling in every form. Welcome to what's next.</p>
+      </div>
+    </section>
+
+    <section class="section shell" id="books" aria-labelledby="books-title">
+      <div class="section-heading reveal">
+        <div>
+          <span class="micro-label">THE COLLECTION</span>
+          <h2 id="books-title">Discover what's <span>coming.</span></h2>
+          <p>Our publishing catalog is taking shape. Stay tuned for our first releases.</p>
+        </div>
+        <span class="heading-decoration" aria-hidden="true">01 / BOOKS</span>
+      </div>
+
+      <div class="filter-row" role="group" aria-label="Filter publications">
+        <button class="filter active" data-filter="all" aria-pressed="true">All titles</button>
+        <button class="filter" data-filter="novels" aria-pressed="false">Novels</button>
+        <button class="filter" data-filter="comics" aria-pressed="false">Comics</button>
+        <button class="filter" data-filter="graphic" aria-pressed="false">Graphic novels</button>
+      </div>
+
+      <div class="empty-catalog" id="catalog-status" role="status">
+        <div class="empty-icon" aria-hidden="true">✦</div>
+        <h3>Something great is on its way.</h3>
+        <p id="catalog-message">Our first publications haven't been announced yet. Check back soon to discover the stories we're bringing to life.</p>
+        <a href="#contact" class="text-link">Get in touch <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="section genres-section" id="genres" aria-labelledby="genres-title">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div>
+            <span class="micro-label">EXPLORE THE POSSIBILITIES</span>
+            <h2 id="genres-title">Every kind of <span>story.</span></h2>
+            <p>Different formats. Endless possibilities.</p>
+          </div>
+        </div>
+
+        <div class="genre-grid">
+          <article class="genre-card">
+            <span class="genre-icon" aria-hidden="true">◫</span>
+            <span class="genre-index">01</span>
+            <h3>Novels</h3>
+            <p>Page-turning adventures, unforgettable characters, and worlds you won't want to leave.</p>
+            <a href="#books">Explore novels <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="genre-card">
+            <span class="genre-icon" aria-hidden="true">▤</span>
+            <span class="genre-index">02</span>
+            <h3>Comics</h3>
+            <p>Bold storytelling brought to life through vivid panels and memorable heroes.</p>
+            <a href="#books">Explore comics <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="genre-card">
+            <span class="genre-icon" aria-hidden="true">▧</span>
+            <span class="genre-index">03</span>
+            <h3>Graphic Novels</h3>
+            <p>Immersive visual stories where every illustration moves the narrative forward.</p>
+            <a href="#books">Explore graphic novels <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="shell about-grid">
+        <div class="about-visual" aria-hidden="true">
+          <span class="visual-small">ELEVATE</span>
+          <span class="visual-large">E<span>.</span></span>
+          <span class="visual-bottom">THE NEXT CHAPTER STARTS HERE</span>
+        </div>
+
+        <div class="about-copy reveal">
+          <span class="micro-label">WHO WE ARE</span>
+          <h2>Not just books.<br><span>Entire worlds.</span></h2>
+          <p>Elevate Publishing is an independent publishing brand being built around a simple belief: great stories deserve a place to shine.</p>
+          <p>We're creating a home for original fiction, comics, and imaginative storytelling, one publication at a time.</p>
+          <a href="#contact" class="btn btn-primary">Connect with us <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="shell">
+        <div class="contact-panel reveal">
+          <span class="micro-label">STAY IN THE STORY</span>
+          <h2>The best chapters<br><span>are still ahead.</span></h2>
+          <p>Our first releases are in the works. Follow along as Elevate Publishing grows.</p>
+          <a class="btn btn-primary" href="mailto:hello@example.com?subject=Elevate%20Publishing%20Inquiry" id="contact-email">
+            Contact Elevate <span aria-hidden="true">↗</span>
+          </a>
+          <small>Contact address is a placeholder — replace it before launch.</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-top">
+      <a class="brand" href="#top">
+        <span class="brand-name">ELEVATE<span class="brand-dot">.</span></span>
+        <span class="brand-sub">PUBLISHING</span>
+      </a>
+      <p>Stories that go beyond the page.</p>
+      <nav aria-label="Footer navigation">
+        <a href="#books">Books</a>
+        <a href="#genres">Categories</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+
+    <div class="shell footer-bottom">
+      <span>© <span id="year">2026</span> Elevate Publishing. All rights reserved.</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
